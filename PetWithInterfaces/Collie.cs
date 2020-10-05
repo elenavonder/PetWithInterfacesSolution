@@ -4,11 +4,8 @@ using System.Text;
 
 namespace PetWithInterfaces
 {
-    class Collie : IBark
+    class Collie : Dog
     {
-        public string Name { get; set; }
-        public string Color { get; set; }
-        public string BarkSound { get; set; }
 
         public void Bark()
         {

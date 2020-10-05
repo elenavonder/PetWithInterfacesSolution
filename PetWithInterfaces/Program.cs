@@ -12,10 +12,7 @@ namespace PetWithInterfaces
             col1.Bark();
             box1.Bark();
             chi1.Bark();
-            var Pets = new IBark()
-            {
-
-            }
+            var Pets = new 
         }
     }
 }

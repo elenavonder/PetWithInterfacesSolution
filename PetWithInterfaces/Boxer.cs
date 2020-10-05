@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PetWithInterfaces
 {
-    class Boxer : Collie, IBark
+    class Boxer : Dog, IBark
     {
 
         public Boxer(string name, string color, string barksound) : base (name, color, barksound)
